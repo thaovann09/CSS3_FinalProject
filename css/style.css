@@ -1,0 +1,82 @@
+body{
+    background-color: #FFFFF0;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+header div{
+    background-image: url("https://cattiennationalpark.com.vn/wp-content/uploads/elementor/thumbs/BauSau-Pha%CC%A3m-Thanh-Thie%CC%A3%CC%82n-qj7a843dsg8o6w1jze4w8y33n0hzvg3imla56oeyu4.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: #DCCFC0;
+}
+nav{
+    display: inline-block;
+    width: 70%;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    column-gap: 30%;
+    justify-content: center;
+}
+ul li{
+    background-color: #1C352D;
+}
+li a{
+    text-decoration: none;
+    font-size: x-large;
+    color:#FFFFF0; 
+}
+/* li a{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: nowrap;
+} */
+li a:hover{
+    background-color:#A6B28B;
+    color: #1C352D;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5px;
+}
+.grid img{
+    border: solid 2px #977e5e;
+    padding: 2px;
+    width:100%;
+    opacity: .4;
+}
+.grid img:hover{
+    opacity: 1;
+    border-radius: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.flex img{
+    border: solid 2px #977e5e;
+    padding: 3px;
+}
+.flex img:nth-child(odd){
+    border-radius: 50px;
+}
+.flex img:nth-child(even){
+    border-radius: 150px;
+}
